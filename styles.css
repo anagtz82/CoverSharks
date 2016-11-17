@@ -1,0 +1,54 @@
+.nav-logo {
+    height: 10%;
+    width: 35%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    text-align: right;
+    color: slategrey;
+    padding: 14px 16px;
+    align-content: center;
+    font-family: 'Work-Sans-SemiBold.woff';
+    letter-spacing: 2px;
+    vertical-align: center;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+.nav-logo-rgt {
+    float: right;
+    height: 1%;
+    width: 1%;
+}
+
+@font-face {
+    font-family: 'Work Sans SemiBold';
+    src: url('./assets/fonts/WorkSans/WorkSans-SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'Work Sans-SemiBold';
+    src: url('./assets/fonts/WorkSans/WorkSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Work-Sans-SemiBold';
+    src: url('./assets/fonts/WorkSans/WorkSans-SemiBold.woff');
+}
+
+.container2 {
+    background-image: url("./assets/coversharks-web-hero.jpg");
+    background-size: cover;
+    height: 20em;
+}
