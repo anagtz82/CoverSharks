@@ -1,18 +1,18 @@
 .nav-logo {
-    height: 10%;
-    width: 35%;
+    height: 15%;
+    width: 16%;
     float: left;
 }
 
-ul {
+ul.navbar {
     list-style-type: none;
     margin: 0;
-    padding: 10;
+    padding: 14px 16px;
     text-align: right;
-    color: slategrey;
+    color: lightslategray;
     padding: 14px 16px;
     align-content: center;
-    font-family: 'Work-Sans-SemiBold.woff';
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: 2px;
     vertical-align: center;
 }
@@ -22,18 +22,18 @@ li {
     text-align: center;
 }
 
-ul.topnav li.right {
-    float: right;
-}
-
 .nav-logo-rgt {
     float: right;
     height: 1%;
     width: 1%;
 }
 
+.social-media-logo {
+    position: relative;
+}
+
 @font-face {
-    font-family: 'Work Sans SemiBold';
+    font-family: 'Work-Sans ';
     src: url('./assets/fonts/WorkSans/WorkSans-SemiBold.otf');
 }
 
@@ -47,8 +47,55 @@ ul.topnav li.right {
     src: url('./assets/fonts/WorkSans/WorkSans-SemiBold.woff');
 }
 
-.container2 {
-    background-image: url("./assets/coversharks-web-hero.jpg");
+.blue-banner {
+    color: white;
+    background-color: deepskyblue;
+    width: 60%;
+    height: 3em;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3em;
+    margin: 100px 150px 100px 80px;
+    padding: 20px 0px 0px 50px;
+}
+
+.paragraph {
+    color: white;
+}
+
+.yeti {
+    height: 30em;
+    position: relative;
+    z-index: 2;
+}
+
+.secdiv {
+    color: slategrey;
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parrafo2 {
+    align-self: center;
+    padding: 50px 30px 50px 80px;
+}
+
+.secdiv2 {
+    font-size: 38px;
+    color: rgb(61, 184, 147);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 
+}
+
+#firstdiv {
+    background-image: url(./assets/coversharks-web-hero.jpg);
+    background-position: center;
     background-size: cover;
-    height: 20em;
+    height: 45em;
+}
+
+#secdiv {
+    background-image: url(./assets/coversharks-mark-white.svg);
+    background-position: center;
+    background-size: cover;
+    height: 30em;
 }
